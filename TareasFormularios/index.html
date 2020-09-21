@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+     <head>
+	<title> Práctica 3 (IAFS). </title>
+     </head>
+
+  <body>
+     <form>
+
+	<div text align = "center">
+	    <h1> Registro de participantes para la ATHENA Estatal 2020. </h1>
+	</div>
+	<div align = "center">
+	    <img src = "https://fenaci.i2c.com.mx/wp-content/uploads/2020/06/Imagen2-300x209.jpg" alt = "Logotipo de la ATHENA 2020.">
+	</div>
+
+	<div>
+	   <h3> Instrucciones: </h3> 
+	   <ul>
+	       <li> Asegúrate de haber leído la convocatoria antes de comenzar a llenar tu registro. </li>
+		<br>
+	       <li> Favor de llenar el presente formulario acorde a lo que se le solicite en cada parte (Todos los campos son obligatorios). </li>
+	   </ul>
+	</div>
+
+	<br>
+	<div>
+	  <h3> Información del alumno: </h3>
+	<ol><strong>
+	    <li>
+	    	<label for = "Nombre"> Nombre completo: </label>
+	    	<input type = "text" name = "Nombre" id = "Respuesta_Nombre">
+	    </li>
+	  <br>
+	    <li>
+	    	<label for = "Matrícula"> Matrícula: </label>
+	    	<input type = "text" name = "Matrícula" id = "Respuesta_Matrícula">
+	    </li>
+    	  <br>
+	    <li>
+	    	<label for = "Carrera"> Carrera profesional: </label>
+	    	<input type = "text" list = "Carreras" name = "Carrera" id = "Respuesta_Carrera">
+ 		   <datalist id = "Carreras">
+    			<option value = "Ingeniería en Sistemas Computacionales (ISC)."> </option>
+    			<option value = "Ingeniería Industrial."> </option>
+			<option value = "Ingeniería en Logística."> </option>
+			<option value = "Ingeniería en Gestión Empresarial (IGE)."> </option>
+    			<option value = "Licenciatura en Administración de Empresas."> </option>
+			<option value = "Licenciatura en Contaduría Pública."> </option>
+  		   </datalist>
+		<label for = "Carrera"> Otra (Especifique): </label>
+  	    	<input type = "text" name = "Carrera" id = "Respuesta_Carrera">
+	    </li>
+	  <br>
+	    <li>
+	    	<label for = "Semestre"> Grado actual: </label>
+  	    	<input type = "number" name = "Semestre" id = "Respuesta_Semestre" min = "1" max = "12" step = "1">
+	    </li>
+	    <li>
+	    	<p> Número de teléfono:
+  	    	    <input type = "text" name = "Número" id = "Respuesta_Número">
+		    <label> Especifique: </label>
+		    <label for = "Celular"> Celular </label>
+  		    <input id = "Celular" name = "Número" type = "checkbox" value = "Celular">
+		    <label for = "Casa"> Casa </label>
+  		    <input id = "Casa" name = "Número" type = "checkbox" value = "Casa">
+ 		</p>
+	    </li>
+	    <li>
+	    	<label for = "Fecha"> Fecha de nacimiento: </label>
+  	    	<input type = "text" name = "Fecha" id = "Respuesta_Fecha">
+	    </li>
+	</ol></strong>
+	</div>
+
+	<br>
+	<div>
+	  <h3> Información de la institución educativa: </h3>
+	<ol><strong>
+	    <li>
+	    	<label for = "Escuela"> Institución educativa: </label>
+  	    	<input type = "text" name = "Escuela" id = "Respuesta_Escuela">
+	    </li>
+	  <br>
+	    <li>
+	    	<label for = "Grado"> Nivel educativo: </label>
+  	    	<input type = "text" name = "Grado" id = "Respuesta_Grado">
+	    </li>
+	    <br>
+	    <li>
+	    	<label for = "Tipo"> Tipo de institución: </label>
+		   <select id = "Tipos" name = "Tipos">
+    			<option value = "Pública."> Pública </option>
+    			<option value = "Privada."> Privada </option>
+  		   </select>
+	    </li>
+	    <li>
+		<p> Periodo escolar: 
+		    <input type = "radio" name = "Periodo" value = "Cuatrimestral."> 
+		    <label for = "Cuatrimestral"> Cuatrimestral </label>
+		    <input type = "radio" name = "Periodo" value = "Semestral.">
+		    <label for = "Semestral"> Semestral </label>
+		    <input type = "radio" name = "Periodo" value = "Anual.">
+		    <label for = "Anual"> Anual </label>
+		</p>
+	    </li>
+	    <li>
+	    	<label for = "Turno"> Turno académico: </label>
+  	    	<input type = "text" list = "Turnos" name = "Turnos" id = "Respuesta_Turno">
+ 		   <datalist id = "Turnos">
+    			<option value = "Matutino."> </option>
+    			<option value = "Vespertino."> </option>
+  		   </datalist>
+	    </li>
+	  <br>
+	    <li>
+	    	<label for = "Contacto"> Número teléfonico: </label>
+  	    	<input type = "text" name = "Contacto" id = "Respuesta_Contacto">
+	    </li>
+	  <br>
+	    <li>
+	    	<label for = "Dirección"> Dirección completa: </label>
+	    	<input type = "text" name = "Dirección" id = "Respuesta_Dirección">
+	    </li>
+	</ol></strong>
+	</div>
+
+	<br>
+	<div>
+	  <h3> Información del asesor: </h3>
+	<ol><strong>
+	    <li>
+	    	<label for = "Nom"> Nombre completo: </label>
+  	    	<input type = "text" name = "Nom" id = "Respuesta_Nom">
+	    </li>
+	  <br>
+	    <li>
+	    	<label for = "Ocupación"> Puesto actual: </label>
+  	    	<input type = "text" name = "Ocupación" id = "Respuesta_Ocupación">
+	    </li>
+	  <br>
+	    <li>
+	    	<label for = "Profesión"> Profesión: </label>
+  	    	<input type = "text" name = "Profesión" id = "Respuesta_Profesión">
+	    </li>
+	    <li>
+		<p> Grado acádemico: 
+		    <input type = "radio" name = "Grado" value = "Licenciatura."> 
+		    <label for = "Licenciatura"> Licenciatura </label>
+		    <input type = "radio" name = "Grado" value = "Maestría.">
+		    <label for = "Maestría"> Maestría </label>
+		    <input type = "radio" name = "Grado" value = "Doctorado.">
+		    <label for = "Doctorado"> Doctorado </label>
+		    <input type = "radio" name = "Grado" value = "Otro.">
+		    <label for = "Otro"> Otro (Especifique): </label>
+  	    	    <input type = "text" name = "Número" id = "Respuesta_Número">
+		</p>
+	    </li>
+	    <li>
+	    	<p> Número de teléfono:
+  	    	    <input type = "text" name = "Número" id = "Respuesta_Número">
+		    <label> Especifique: </label>
+		    <label for = "Celular"> Celular </label>
+  		    <input id = "Celular" name = "Número" type = "checkbox" value = "Celular">
+		    <label for = "Casa"> Casa </label>
+  		    <input id = "Casa" name = "Número" type = "checkbox" value = "Casa">
+ 		</p>
+	    </li>
+	    <li>
+	    	<label for = "Correo"> Correo electrónico: </label>
+  	    	<input type = "text" name = "Correo" id = "Respuesta_Correo">
+	    </li>
+	</ol></strong>
+
+	<br>
+	  <h3> Información del proyecto: </h3>
+	<ol><strong>
+	    <li>
+	    	<label for = "Título"> Título del proyecto: </label>
+  	    	<input type = "text" name = "Título" id = "Respuesta_Título">
+	    </li>
+	    <li>
+		<p> Área de conocimiento (Seleccione una opción): </p>
+  		    <input type = "radio" id = "Área" name = "Respuesta_Área" value = "CTA: Ciencias de la Tierra Ambientales.">
+  		    <label for = "CTA"> CTA: Ciencias de la Tierra Ambientales. </label>
+		  <br>
+  		    <input type = "radio" id = "Área" name = "Respuesta_Área" value = "CB: Ciencia Básica.">
+  		    <label for = "CB"> CB: Ciencia Básica. </label>
+		  <br>
+  		    <input type = "radio" id = "Área" name = "Respuesta_Área" value = "EN: Energías.">
+  		    <label for = "EN"> EN: Energías. </label>
+		  <br>
+  		    <input type = "radio" id = "Área" name = "Respuesta_Área" value = "MCS: Medicina y Ciencias de la Salud.">
+  		    <label for = "MCS"> MCS: Medicina y Ciencias de la Salud. </label>
+		  <br>
+  		    <input type = "radio" id = "Área" name = "Respuesta_Área" value = "HCS: Humanidades y Ciencias Sociales.">
+  		    <label for = "HCS"> HCS: Humanidades y Ciencias Sociales. </label>
+		  <br>
+  		    <input type = "radio" id = "Área" name = "Respuesta_Área" value = "IN: Ingenierías.">
+  		    <label for = "IN"> IN: Ingenierías. </label>
+	    </li>
+	    <br>
+	    <li>
+	    	<label for = "Estado"> Estado del proyecto: </label>
+		   <select id = "Estado" name = "Estado">
+    			<option value = "Nuevo."> Nuevo </option>
+    			<option value = "Continuidad."> Continuidad </option>
+  		   </select>
+	    </li>
+	    <br>
+	    <li>
+  		<label for = "Resumen"> Resumen del proyecto (250 palabras máximo): </label>
+  		<hr>
+  		<textarea id = "Resumen" name = "Resumen" rows = "10" cols = "180"> (Marco teórico, definición del problema, objetivos, métodos y materiales utilizados, resultados esperados). </textarea>
+	    </li>
+	</ol></strong>
+	</div>
+
+	<br>
+	<div>
+	  <h3> Datos del registro: </h3>
+        <p> Finalmente, ingresa la siguiente información para finalizar este proceso: </p>
+	<ol><strong>
+	   	   <li>
+	             <label for = "Email"> E-mail: </label>
+  	    	     <input type = "text" name = "Email" id = "Respuesta_Email">
+	    	   </li>
+		<br>
+	    	   <li>
+  		     <label for = "Contraseña"> Contraseña: </label>
+		     <input type = "password" id = "Contraseña" name = "Respuesta_Contraseña">
+	    	   </li>
+	</ol></strong>
+        <p><strong> Importante: </strong> Este campo es exclusivo solo para el (la) estudiante. </p>
+	</div>
+
+	<div>
+    <p>
+	<p>
+	  <input type = "checkbox" name = "copia"> Enviar una copia del formulario a mi correo.
+	</p>
+    	  <input type = "submit" value = "Enviar registro.">
+    </p>
+	</div>
+
+     </form>
+  </body>
+</html>
