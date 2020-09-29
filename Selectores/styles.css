@@ -2,19 +2,19 @@
 {font: 1em/1.3 Arial, Helvetica, sans-serif;}
 
 /* Todos los párrafos de la página */
-{color: #555;}
+.p {color: #555;}
 
 /* Todos los párrafos contenidos en #primero */
-{color: #336699;}
+.primero {color: #336699;}
 
 /* Todos los enlaces de la pagina */
-{color: #CC3300;}
+.href {color: #CC3300;}
 
 /* Los elementos "em" contenidos en #primero */
-{background: #FFFCC; padding: .1em;}
+.em {background: #FFFCC; padding: .1em;}
 
 /* Todos los elementos "em" de clase "especial" en toda la página*/
-{background: #FFCC99; border: 1px solid #FF9900; padding: .1em;}
+.especial {background: #FFCC99; border: 1px solid #FF9900; padding: .1em;}
 
 /* Elementos "spa" contenidos en .normal */
-{font-weight: bold;}
+.normal {font-weight: bold;}
