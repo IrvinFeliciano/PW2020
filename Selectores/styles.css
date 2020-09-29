@@ -1,20 +1,20 @@
-/* Todos los elementos de la página */
-{font: 1em/1.3 Arial, Helvetica, sans-serif;}
+/* Todos lo elementos de la pagina */
+body{ font: 1em/1.3 Arial, Helvetica, sans-serif; }
 
-/* Todos los párrafos de la página */
-.p {color: #555;}
+/*Todos los parrafos de la pagina */
+p{color: #555; }
 
-/* Todos los párrafos contenidos en #primero */
-.primero {color: #336699;}
+/*Todos los parrafos contenidos en #primero */
+.primero p{color: #336699; }
 
-/* Todos los enlaces de la pagina */
-.href {color: #CC3300;}
+/* Todos los enlaces en la pagina */
+a{color: #CC3300 }
 
 /* Los elementos "em" contenidos en #primero */
-.em {background: #FFFCC; padding: .1em;}
+.primero em{background: #FFFFCC; padding: .1em;}
 
-/* Todos los elementos "em" de clase "especial" en toda la página*/
-.especial {background: #FFCC99; border: 1px solid #FF9900; padding: .1em;}
+/* Todos los elementos "em" de clase "especial" en toda la pagina */
+.especial{background: #FFCC99; border: 1px solid	#FF9900; padding: .1em;}
 
-/* Elementos "spa" contenidos en .normal */
-.normal {font-weight: bold;}
+/* Elementos "span" contenidos en .normal */
+.normal span{font-weight: bold;}
