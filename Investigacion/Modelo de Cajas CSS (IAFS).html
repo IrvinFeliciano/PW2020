@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang = "es">
+
+     <head>
+	<meta charset="UTF-8">
+	<link href = "Estilos_Investigacion.css" type = "text/css" rel = "stylesheet">
+	<title> Práctica 5 (IAFS). </title>
+     </head>
+
+  <body>
+	<header>
+		<div align = "center">
+	             <img src = "Investigacion/1.png" alt = "Logotipo de CSS.">
+	        </div>
+	</header>
+
+	<h1 id = "Encabezado" > Práctica No. 5: El modelo de caja. </h1>
+	<br>
+	<section>
+	<h2 id = "Tit_Tema" > CAPÍTULO 1. GENERALIDADES DEL MODELO DE CAJAS EN CSS. </h2>
+	    <article>
+		<h3 id = "Tit_Tema" > 1.1 Definición conceptual: </h3> 
+		   <div class = "P">
+		     <p>
+			El <span> modelo de caja o "box model" </span> en <span> CSS </span> describe las cajas que se generan a partir de los elementos <span> HTML </span>. 
+	             	El modelo de caja también contiene opciones detalladas en lo referente al ajuste de márgenes, bordes, relleno (padding) 
+			y contenido de cada elemento. La siguiente imagen muestra cómo se construye el modelo de caja:
+		     </p>
+		   </div>
+    	    </article>
+	</section>
+
+	<div align = "center" id = "Tit_Ref" >
+	    <img src = "Investigacion/2.png" alt = "Ejemplo gráfico del modelo de caja en CSS.">
+	    <p> <em class = "Tit_Referencia" > Figura 2. Ejemplo gráfico del modelo de caja en CSS. </em> </p>
+	</div>
+
+	<section>
+	<h3 id = "Tit_Tema" > 1.2 Estructura general: </h3> 
+	    <article>
+		<h5 id = "Tit_Tema" > 1.2.1 Clasificación de las áreas: </h5> 
+		     <p>
+			Cada caja posee, además de su área de Contenido, otras tres áreas opcionales: 
+		     </p>
+		 <ul>
+
+	    	   <li>
+	               	Área de Margen: Margin.
+	    	   </li>
+
+	    	   <li>
+		        Área de Relleno: Padding.
+	    	   </li>
+
+	    	   <li>
+		        Área de Borde: Border.
+	    	   </li>
+
+		 </ul>
+    	    </article>
+	</section>
+
+	<div align = "center" id = "Tit_Ref" >
+	    <img src = "Investigacion/3.png" alt = "Estructura general del modelo de cajas en CSS.">
+	    <p> <em class = "Tit_Referencia" > Figura 3. Estructura general del modelo de cajas en CSS. </em> </p>
+	</div>
+
+	<section>
+	<h3 id = "Tit_Tema" > 1.3 Propiedades de cada área: </h3> 
+	    <article>
+		<h5 id = "Tit_Tema" > 1.3.1 Lista de las propiedades: </h5> 
+		     <p>
+			En cualquier caso puede obviarse el valor 0 ya que es el valor que toman las 
+			propiedades por defecto. La lista completa de propiedades es la siguiente: 
+		     </p>
+		 <ul>
+	    	   <li>
+	               <p> <em class = "Detalles" > Propiedades del Margen: </em> "margin-top", "margin-right", "margin-bottom", "margin-left" y "margin" </p>
+	    	   </li>
+	    	   <li>
+		       <p> <em class = "Detalles" > Propiedades del Relleno: </em> "padding-top", "padding-right", "padding-bottom", "padding-left" y "padding" </p>
+	    	   </li>
+	    	   <li>
+		       <p> <em class = "Detalles" > Propiedades del Borde: </em> </p>
+		        <ol>
+			    <li>
+				<p>
+	                           Ancho (width): "border-top-width", "border-right-width", "border-bottom-width", "border-left-width" y
+				   "border-width". Pueden ser valores específicos o los valores "thin" (fino), "medium" (medio) y "thick" (grueso).
+		                </p>
+			    </li>
+
+			    <li>
+				<p>
+	                           Color (color): "border-top-color", "border-right-color", "border-bottom-color", "border-left-color" y "bordercolor" 
+		                </p>
+			    </li>
+
+			    <li>
+				<p>
+	                           Estilo (style): "border-top-style", "border-right-style", "border-bottom-style", "border-left-style" and "borderstyle". 
+				   Toma una serie de posibles valores, tales como: none, hidden, dotted, dashed, solid, double, groove, ridge, inset y outset. 
+				   Es una propiedad algo conflictiva ya que no todos los navegadores interpretan sus valores de la misma manera. 
+		                </p>
+			    </li>
+
+			</ol>
+	    	   </li>
+		 </ul>
+    	    </article>
+	</section>
+
+	<br>
+
+	<div align = "center" id = "Tit_Ref" >
+	    <img src = "Investigacion/4.jpg" alt = "Aplicación de atributos en CSS.">
+	    <p> <em class = "Tit_Referencia" > Figura 4. Demostración gráfica de la estructura de estilos en CSS. </em> </p>
+	</div>
+
+	<aside>
+	      <section>
+	      <h3 id = "Tit_Tema" > Referencias bibliográficas: </h3>
+	    	  <ol>
+	    	   <li>
+		     <p>
+	               Alvarez Salazar, Jaime Eduardo (2018). Metodología para el desarrollo de aplicaciones web ajustada al contexto de los 
+		       Productos Mínimos Viables. Scientia Et Technica, 23(3), 355-358.
+		     </p>
+	    	   </li>
+
+		   <li>
+		     <p>
+		       Hernández Saucedo, Ana Laura, & Mejia Miranda, Jezreel (2015). Guía de ataques, vulnerabilidades, técnicas y herramientas 
+		       para aplicaciones web. ReCIBE. Revista electrónica de Computación, Informática, Biomédica y Electrónica, (1).
+		     <p>
+	    	   </li>
+
+	   	   <li>
+		     <p>
+		       Londoño Rojas, Luis Felipe, & Tabares Morales, Valentina, & Bez, Marta Rosecler, & Duque Mendez, Néstor Darío (2018). 
+		       Análisis comparativo de guías para el desarrollo web accesible. Ciencia e Ingeniería Neogranadina, 28(1), 101-115.
+		     <p>
+	    	   </li>
+
+	    	   <li>
+		     <p>
+	               López Higuera, Fabián Hernando, & Ballesteros Ricaurte, Javier Antonio (2011). Comparación de herramientas para el desarrollo 
+		       de librerías enfocadas a aplicaciones web. Revista Virtual Universidad Católica del Norte, (34), 342-359.
+		     </p>
+	    	   </li>
+
+		   <li>
+		     <p>
+	               MARTÍNEZ VILLALOBOS, GUSTAVO, & CAMACHO SÁNCHEZ, GERMÁN DARÍO, & BIANCHA GUTIÉRREZ, DANIEL ALBERTO (2010). 
+		       DISEÑO DE FRAMEWORK WEB PARA EL DESARROLLO DINÁMICO DE APLICACIONES. Scientia Et Technica, XVI(44),178-183.
+		     </p>
+	    	   </li>
+
+		 </ol>
+	      </section>
+        </aside>
+
+	<footer>
+	   <div id = "Tit_Ref" >		
+       		<p id = "Tit_Ref" > <em class = "Derecho" > &copy; Copyright 2020. Todos los derechos reservados, el presente trabajo fue realizado por Irvin Alfredo Feliciano Siles. </em> </p>
+           </div>
+        </footer>
+
+  </body>
+</html>

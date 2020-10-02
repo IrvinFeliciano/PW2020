@@ -1,0 +1,16 @@
+
+* { font: 1em/1.5 sans-serif; font-size: 15pt; color: black; }
+
+.P span{ font-weight: bold;}
+
+em.Detalles { font-weight: bold; color: black; }
+
+em.Tit_Referencia { font: Arial; font-weight: bold; font-size: 10pt; color: green; }
+
+em.Derecho { font: Arial; font-weight: bold; font-size: 12pt; color: blue; }
+
+#Tit_Ref p { text-align: center; }
+
+#Encabezado {text-align: center; font-weight: bold; }
+
+#Tit_Tema { font-weight: bold; }
