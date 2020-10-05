@@ -152,6 +152,7 @@ input {
 }
 
 input:focus {
+    background-color: #87CEEB;
     border-color: white;
 }
 
