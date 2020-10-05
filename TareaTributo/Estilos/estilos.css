@@ -5,6 +5,16 @@
     background-color: #E9967A;
 }
 
+#Historia {
+	border: 5px outset yellow;
+	background: #F39C12;
+	width: 1200px;
+	padding: 20px 50px 20px 50px;
+	margin-left: 100px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
 /* Diseños del Encabezado (header) */
 
 .Titulo {
