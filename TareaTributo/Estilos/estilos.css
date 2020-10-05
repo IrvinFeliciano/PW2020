@@ -172,7 +172,7 @@ input:focus {
 
 .button {
     padding-left: 90px;
-    display: block;
+    display: inline-block;
     margin: auto;
 }
 
