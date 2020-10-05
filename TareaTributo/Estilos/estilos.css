@@ -119,7 +119,7 @@
 /* Formulario */
 
 form {
-    background-color: #87CEEB;
+    background-color: white;
     margin: auto;
     width: 400px;
     padding: 1em;
@@ -152,7 +152,6 @@ input {
 }
 
 input:focus {
-    background-color: #87CEEB;
     border-color: white;
 }
 
