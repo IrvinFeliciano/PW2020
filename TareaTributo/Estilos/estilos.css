@@ -1,0 +1,181 @@
+/* Diseños del Cuerpo (body) */
+
+* {
+    font-family: 'Verdana';
+    background-color: #E9967A;
+}
+
+/* Diseños del Encabezado (header) */
+
+.Titulo {
+    font-size: 30px;
+    font-weight: bold; 
+    text-align: center;
+    color: black;
+}
+
+.Imagen_Principal {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.Titulo_Encabezado h1 {
+    font-size: 40px;
+    font-weight: bold; 
+    text-align: center;
+    color: black;
+}
+
+.Titulo_Encabezado h2 {
+    font-size: 30px;
+    font-weight: bold; 
+    text-align: center;
+    color: black;
+}
+
+/* Su historia (section, div, span, h3, em, p) */
+
+.Diseño_Contenido {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Dato_Resaltado span { 
+    font-weight: bold;
+}
+
+.Contenido_Textual h3 em {
+    background: blue;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    widht: 30px;
+    height: 30px;
+}
+
+.Contenido_Textual p {
+    font-weight: 30px;
+    text-align: justify;
+}
+
+
+/* Principales aportaciones científicas: */
+
+.Diseño_Aportaciones {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Información_Resaltada span { 
+    font-weight: bold;
+}
+
+.Descripción_Aportaciones {
+    width: 28%;
+    text-align: center;
+}
+
+.Descripción_Aportaciones img {
+    width: 100%;
+}
+
+.Descripción_Aportaciones h3 {
+    margin: 20px 0;
+}
+
+.Descripción_Aportaciones p {
+    font-weight: 30px;
+    text-align: justify;
+}
+
+/* ¿Por qué lo admiro? */
+
+.Diseño_Tributo {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Descripción_Tributo {
+    width: 20%;
+    text-align: center;
+}
+
+.Descripción_Tributo img {
+    width: 100%;
+}
+
+.Descripción_Tributo h3 {
+    margin: 20px 0;
+}
+
+.Descripción_Tributo p {
+    font-weight: 30px;
+    text-align: justify;
+}
+
+/* Formulario */
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 2em;
+  border: 5px solid purple;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 0.5em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: justify;
+}
+
+input, textarea {
+  font: 1em verdana;
+  width: 300px;
+  box-sizing: border-box;
+  border: 2.5px solid white;
+}
+
+input:focus, textarea:focus {
+  border-color: white;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: .5em;
+}
+
+/* Pie de página (footer) */
+
+.Imagen_Final {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.Titulo_Pie_Página {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
