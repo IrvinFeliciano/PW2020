@@ -139,13 +139,14 @@ form li + li {
 label {
     display: inline-block;
     width: 90px;
-    font-weight:bold;
+    font-weight: bold;
     text-align: justify;
 }
 
 input {
     font: 1em Verdana;
     width: 300px;
+    font-weight: bold;
     box-sizing: border-box;
     border: 3px solid white;
 }
