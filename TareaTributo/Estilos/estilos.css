@@ -134,6 +134,7 @@ ul {
 }
 
 form li + li {
+    background-color: #87CEEB;
     margin-top: 0.5em;
 }
 
