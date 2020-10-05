@@ -133,7 +133,7 @@ form {
     margin: auto;
     width: 400px;
     padding: 1em;
-    border: 5px solid purple;
+    border: 5px outset purple;
 }
 
 .Resaltado {
