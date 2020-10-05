@@ -136,11 +136,6 @@ form {
     border: 5px outset purple;
 }
 
-.Resaltado {
-    font-weight: bold;
-    text-align: justify;
-}
-
 ul {
     list-style: none;
     padding: 0;
