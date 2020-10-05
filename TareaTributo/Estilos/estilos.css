@@ -172,11 +172,11 @@ input:focus {
 
 .button {
     box-sizing: border-box;
-    padding-left: 45px;
+    padding-left: 40px;
 }
 
 button {
-    margin-center: .5em;
+    margin-left: 1em;
 }
 
 /* Pie de página (footer) */
