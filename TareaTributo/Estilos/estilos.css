@@ -145,6 +145,7 @@ label {
 }
 
 input {
+    background-color: white;
     font: 1em Verdana;
     width: 300px;
     box-sizing: border-box;
@@ -160,6 +161,7 @@ input:focus {
 }
 
 button {
+    background-color: #87CEEB;
     margin-left: .5em;
 }
 
