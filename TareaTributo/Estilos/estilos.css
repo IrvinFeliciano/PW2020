@@ -171,12 +171,15 @@ input:focus {
 }
 
 .button {
+    box-sizing: border-box;
     padding-left: 90px;
     display: inline-block;
     margin: auto;
 }
 
 button {
+    display: inline-block;
+    margin: auto;
     margin-left: .5em;
 }
 
