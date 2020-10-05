@@ -134,6 +134,9 @@ form {
     width: 400px;
     padding: 1em;
     border: 5px outset purple;
+}
+
+.Texto {
     text-aling: center;
 }
 
