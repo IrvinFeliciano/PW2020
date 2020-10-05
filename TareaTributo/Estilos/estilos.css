@@ -127,6 +127,7 @@ form {
 }
 
 ul {
+    background-color: #87CEEB;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -143,7 +144,6 @@ label {
 }
 
 input {
-    background-color: #87CEEB;
     font: 1em Verdana;
     width: 300px;
     box-sizing: border-box;
