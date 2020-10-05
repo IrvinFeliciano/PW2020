@@ -136,10 +136,6 @@ form {
     border: 5px outset purple;
 }
 
-.Contenido_Parráfo {
-    text-aling: justify;
-}
-
 ul {
     list-style: none;
     padding: 0;
@@ -170,8 +166,6 @@ input:focus {
 }
 
 .button {
-    border: 3px solid white;
-    box-sizing: border-box;
     padding-left: 10px;
 }
 
