@@ -119,8 +119,8 @@
 /* Formulario */
 
 form {
-    background-transparent: #87CEEB;
-    margin: 0 auto;
+    background-color: #87CEEB;
+    margin: auto;
     width: 400px;
     padding: 2em;
     border: 5px solid purple;
@@ -139,11 +139,11 @@ form li + li {
 label {
     display: inline-block;
     width: 90px;
+    font-weight:bold;
     text-align: justify;
 }
 
 input {
-    background-color: white;
     font: 1em Verdana;
     width: 300px;
     box-sizing: border-box;
