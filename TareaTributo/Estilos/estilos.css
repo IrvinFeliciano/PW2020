@@ -141,22 +141,6 @@ label {
     text-align: justify;
 }
 
-input, textarea {
-    font: 1em verdana;
-    width: 90px;
-    box-sizing: border-box;
-    border: 2.5px solid white;
-}
-
-input:focus, textarea:focus {
-    border-color: white;
-}
-
-textarea {
-    vertical-align: top;
-    height: 5em;
-}
-
 .button {
     padding-left: 90px;
 }
