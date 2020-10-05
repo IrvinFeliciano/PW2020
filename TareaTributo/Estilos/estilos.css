@@ -141,6 +141,17 @@ label {
     text-align: justify;
 }
 
+input {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 3px solid white;
+}
+
+input:focus {
+    border-color: white;
+}
+
 .button {
     padding-left: 90px;
 }
