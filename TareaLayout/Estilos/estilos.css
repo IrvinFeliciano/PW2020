@@ -1,9 +1,7 @@
 
 /* Cuerpo */
 body {
-    background-image: url("Imagenes/Rick&Morty.png");
-    background-size: cover;
-    background-position: 25% 25%;
+    background-color: #7dd88e;
 }
 
 * {
