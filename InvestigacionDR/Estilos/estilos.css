@@ -1,0 +1,355 @@
+body {
+	background-color: #6cd882;
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+header { 
+	text-align: center;
+}
+
+.Imagen {
+	width: 75%;
+	background-color: transparent;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+
+h1 {
+	width: 100%;
+	font-size: 40px;
+	padding-bottom: auto;
+	color: #F9132F;	
+	font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	color: #39ca56;	
+	font-family: 'Press Start 2P', cursive;
+}
+
+.Contenido_Texto {
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+    margin-bottom: 10px;
+    background-color: white; 
+    border: 5px solid green;
+    float: left;
+}
+
+p {
+	font-size: 20px;
+	text-align: justify;
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+span {
+	color: #1883ba;
+	font-weight: bold;
+}
+
+em {
+	color: #1883ba;
+	font-weight: bold;
+}
+
+#Texto_Lista {
+	color: black;
+	font-weight: bold;
+}
+
+.lista {
+	text-align: center;
+	padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Concert', cursive;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    background-color: #1883ba;
+    display: inline-block;
+}
+
+a:hover {
+    color: #9b0e0e;
+    background-color: #bc6355;
+    text-decoration: none;
+}
+
+figure {
+	text-align: center;
+}
+
+.img2 {
+	width: 27%;
+	background-size: 50% 50%;
+	display: inline-block;
+	float: left;
+}
+
+.img3 {
+	width: 50%;
+	background-size: 50% 50%;
+	display: inline-block;
+}
+
+.img4 {
+	width: 100%;
+	background-size: 50% 50%;
+	display: block;
+}
+
+.img5 {
+	width: 10%;
+	background-size: 50% 50%;
+	display: inline-block;
+}
+
+.img6 {
+	width: 50%;
+	background-size: 50% 50%;
+	display: inline-block;
+}
+
+.img7 {
+	width: 50%;
+	background-size: 50% 50%;
+	display: inline-block;
+}
+
+.img8 {
+	width: 27%;
+	background-size: 50% 50%;
+	display: inline-block;
+	float: right;
+}
+
+.img10 {
+	width: 70%;
+	background-size: 50% 50%;
+	display: inline-block;
+}
+
+.img11 {
+	width: 82.25%;
+	background-size: 50% 50%;
+	display: inline-block;
+}
+
+.Mapa {
+	width: 100%;
+	background-size: 50% 50%;
+	background-color: transparent;
+	display: inline-block;
+}
+
+#Mapa_Descripción {
+	font-size: 20px;
+	font-weight: bold;
+	color: #9b0e0e;
+}
+
+.Bibliografía {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.Pie_Página {
+	width: 100%;
+	font-size: 20px;
+	font-family: 'Concert', cursive;
+	font-weight: bold;
+	color: #F9132F;
+	text-align: center;
+}
+
+/*Diseño Responsivo*/
+.row {
+	width: 100%
+}
+
+/*Dispositivos con pantalla de Tamaño Grande*/
+@media (min-width: 1200px) {
+    .Columna-TG-1, .Columna-TG-2, .Columna-TG-3, .Columna-TG-4, .Columna-TG-5, .Columna-TG-6,
+    .Columna-TG-7, .Columna-TG-8, .Columna-TG-9, .Columna-TG-10, .Columna-TG-11, .Columna-TG-12 {
+
+    }
+
+    .Columna-TG-1 {
+    	width: 8.33%;
+    }
+
+    .Columna-TG-2 {
+    	width: 16.66%;
+    }
+    
+    .Columna-TG-3 {
+    	width: 25%;
+    }
+
+    .Columna-TG-4 {
+    	width: 33.33%;
+   	}
+
+    .Columna-TG-5 {
+    	width: 41.66%;
+    }
+
+    .Columna-TG-6 {
+    	width: 50%;
+    }
+
+    .Columna-TG-7 {
+    	width: 58.33%;
+    }
+
+    .Columna-TG-8 {
+    	width: 66.66%;
+    }
+
+    .Columna-TG-9 {
+    	width: 74.99%;
+    }
+
+    .Columna-TG-10 {
+    	width: 83.33%;
+    }
+
+    .Columna-TG-11 {
+    	width: 91.66%;
+    }
+
+    .Columna-TG-12 {
+    	width: 100%;
+    }
+}
+
+/*Dispositivos con pantalla de Tamaño Mediano*/
+@media (min-width: 950px) and (max-width: 1199px) {
+    .Columna-TM-1, .Columna-TM-2, .Columna-TM-3, .Columna-TM-4, .Columna-TM-5, .Columna-TM-6,
+    .Columna-TM-7, .Columna-TM-8, .Columna-TM-9, .Columna-TM-10, .Columna-TM-11, .Columna-TM-12 {
+
+    }
+
+    .Columna-TM-1 {
+    	width: 8.33%;
+    }
+
+    .Columna-TM-2 {
+    	width: 16.66%;
+    }
+    
+    .Columna-TM-3 {
+    	width: 25%;
+    }
+
+    .Columna-TM-4 {
+    	width: 33.33%;
+    }
+
+    .Columna-TM-5 {
+    	width: 41.66%;
+    }
+
+    .Columna-TM-6 {
+    	width: 50%;
+    }
+
+    .Columna-TM-7 {
+    	width: 58.33%;
+    }
+
+    .Columna-TM-8 {
+    	width: 66.66%;
+    }
+
+    .Columna-TM-9 {
+    	width: 74.99%;
+    }
+
+    .Columna-TM-10 {
+    	width: 83.33%;
+    }
+
+    .Columna-TM-11 {
+    	width: 91.66%;
+    }
+
+    .Columna-TM-12 {
+    	width: 100%;
+    }
+}
+
+
+/*Dispositivos con pantalla de Tamaño Chico*/
+@media (min-width: 470px) and (max-width: 949px) {
+    .Columna-TC-1, .Columna-TC-2, .Columna-TC-3, .Columna-TC-4, .Columna-TC-5, .Columna-TC-6,
+    .Columna-TC-7, .Columna-TC-8, .Columna-TC-9, .Columna-TC-10, .Columna-TC-11, .Columna-TC-12 {
+
+    }
+
+    .Columna-TC-1 {
+    	width: 8.33%;
+    }
+
+    .Columna-TC-2 {
+    	width: 16.66%;
+    }
+    
+    .Columna-TC-3 {
+    	width: 25%;
+    }
+
+    .Columna-TC-4 {
+    	width: 33.33%;
+    }
+
+    .Columna-TC-5 {
+    	width: 41.66%;
+    }
+
+    .Columna-TC-6 {
+    	width: 50%;
+    }
+
+    .Columna-TC-7 {
+    	width: 58.33%;
+    }
+
+    .Columna-TC-8 {
+    	width: 66.66%;
+    }
+
+    .Columna-TC-9 {
+    	width: 74.99%;
+    }
+
+    .Columna-TC-10 {
+    	width: 83.33%;
+    }
+
+    .Columna-TC-11 {
+    	width: 91.66%;
+    }
+
+    .Columna-TC-12 {
+    	width: 100%;
+    }
+}
