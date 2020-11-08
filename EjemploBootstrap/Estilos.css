@@ -1,0 +1,75 @@
+body {
+	box-sizing: border-box;
+}
+
+#Encabezado {
+	background: linear-gradient(5deg, rgba(100, 226, 130, 0.8), rgba(100, 200, 210, 0.8)),
+	url("Imagenes/Portada.png") center top no-repeat;
+    max-width: 101%;
+    background-size: 100% 100%;
+	background-color: #8fef8f;
+	font-family: 'Rubik', sans-serif;
+	margin-bottom: 0;
+}
+
+#Contenido_Principal {
+	font-family: 'Rubik', sans-serif;
+	margin-top: 10px;
+}
+
+#Frase_Principal {
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+	margin-top: 0px;
+}
+
+h1 {
+	padding-top: 60px;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	font-family: 'Rubik', sans-serif;
+	text-align: justify;
+}
+
+#enlace li a {
+	color: #fff;
+}
+
+#Descripción {
+	text-align: center;
+}
+
+figure{
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+}
+
+#Logo {
+	width: 300px;
+}
+
+#Ganadores {
+	width: 550px;
+}
+
+#Cerebros {
+	padding-top: 15px;
+	width: 180px;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+#Pie_Página {
+	background: linear-gradient(5deg, rgba(100, 226, 130, 0.8), rgba(100, 200, 210, 0.8));
+	font-family: 'Rubik', sans-serif;
+	margin-bottom: 0;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+  
+  <title> Ejemplo Bootstrap 4. </title>
+  <meta charset = "UTF-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1">
+  <link href = "https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel = "stylesheet">
+  <link rel = "stylesheet" type = "text/css" href = "Estilos.css">
+  <link rel = "stylesheet" type = "text/css" href = "bst/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+<section class = "jumbotron row" id = "Encabezado">
+    <figure class = "col col-sm-3 rounded float-right">
+      <img src = "Imagenes\Brain1.png" alt = "Cerebro 1" id = "Cerebros">
+    </figure>
+    <div class = "col order-1 col-sm-6 text-center">
+    <h1> ATHENA 2O2O: </h1>
+    <h3 id = "Frase_Principal"> "Feria Nacional y Latinoamericana de Humanidades, Ciencias e Ingenierías." </h3> 
+    </div>
+    <figure class = "col order-12 col-sm-3 rounded float-left">
+      <img src = "Imagenes\Brain2.png" alt = "Cerebro 2" id = "Cerebros">
+    </figure>
+</section>
+
+<nav class = "navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+  <div class = "container">
+  <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#Opción">
+    <span class = "navbar-toggler-icon"></span>
+  </button>
+  <a class = "navbar-brand text-right" href = "index.html"> Inicio </a>
+  <div class = "collapse navbar-collapse" id = "Opción">
+    <ul class = "navbar-nav mr-auto">
+      <li class = "nav-item">
+        <a class = "nav-link" href = "index.html"> Convocatoria </a>
+      </li>
+      <li class = "nav-item">
+        <a class = "nav-link" href = "index.html"> Registro </a>
+      </li> 
+      <li class = "nav-item">
+        <a class = "nav-link" href = "index.html"> Formatos </a>
+      </li>
+      <li class = "nav-item">
+        <a class = "nav-link" href = "index.html"> Contacto </a>
+      </li> 
+    </ul>
+  </div>
+  </div> 
+</nav>
+
+  <section id = "enlace">
+    <ol class = "col-12 breadcrumb bg-primary">
+      <li class = "breadcrumb-item active"><a href = "index.html"> Inicio </a></li>
+      <li class = "breadcrumb-item active"><a href = "index.html"> Registro </a></li>
+      <li class = "breadcrumb-item active"><a href = "index.html"> Contacto </a></li>
+    </ol>
+  </section>
+
+  <main class = "container" id = "Contenido_Principal">
+    <article class = "row">
+
+      <section class = "col-sm-8">
+        <h2 id = "Nosotros"> Nosotros: </h2>
+        <figure>
+          <img src = "Imagenes/I2C.png" alt = "Instituto de Innovación y Competitividad (I2C).">
+        </figure>
+        <p>La organización de la ATHENA es coordinada por el Consejo Nacional de Ciencia y Tecnología (CONACyT) a través de Consejos de Ciencia y Tecnología de los Estados de la República Mexicana. En Chihuahua, la organización de la feria estará a cargo del Instituto de Innovación y Competitividad (I²C), quien será el responsable de informar con antelación sobre la realización de la misma, la documentación requerida y demás información relevante, así como las Reglas de participación que deberán respetar todos los participantes.</p>
+        <br>
+        <figure>
+          <img src = "Imagenes/Ganadores.jpg" alt = "Representantes de la Delegación Mexicana 2018." id = "Ganadores">
+        </figure>
+      </section>
+
+      <section class = "col-sm-4">
+        <h2 id = "Equipo"> Competencia: </h2>
+        <figure>
+          <img src = "Imagenes/ATHENA.jpg" alt = "ATHENA 2020." id = "Logo">
+        </figure>
+        <p> Concurso de proyectos de carácter científico y/o tecnológico que tiene la finalidad de premiar la creatividad, originalidad y mérito científico de estudiantes de nivel básico, medio superior y superior (de los 14 a los 20 años) inscritos en instituciones educativas públicas o privadas, coordinada por el Consejo Nacional de Ciencia y Tecnología CONACyT. </p>
+        <br>
+        <h2 id = "Logros"> Actividades: </h2>
+        <ul class = "nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#"> Enlace habilitado. </a>
+          </li>
+          <li class = "nav-item">
+            <a class = "nav-link" href = "#"> Miembro fundador IberoCiencias. </a>
+          </li>
+          <li class = "nav-item">
+            <a class = "nav-link" href = "#"> Talleres y divulgación científica. </a>
+          </li>
+          <li class = "nav-item">
+            <a class = "nav-link" href = "#"> Eventos y concursos innovadores. </a>
+          </li>
+          <li class = "nav-item">
+            <a class = "nav-link" href = "#"> Conferencias y talleres gratuitos. </a>
+          </li>
+          <li class = "nav-item">
+            <a class = "nav-link" href = "#"> Asesorías en investigación. </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#"> Enlace deshabilitado. </a>
+          </li>
+        </ul>
+          <hr class = "d-sm-none">
+      </section>
+
+    </article>
+  </main>
+
+  <footer class = "jumbotron text-center" id = "Pie_Página">
+    <h4> &copy; Copyright 2020. Todos los derechos reservados, el presente trabajo fue realizado por Irvin Feliciano. </h4>
+  </footer>
+
+  <script type = "text/javascript" src ="bst/js/jquery-3.5.1.min.js"></script>
+  <script type = "text/javascript" src ="bst/js/bootsrap.min.js"></script>
+
+</body>
+</html>
