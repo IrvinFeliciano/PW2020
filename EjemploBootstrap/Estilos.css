@@ -69,7 +69,8 @@ img {
 }
 
 #Pie_Página {
-	background: linear-gradient(5deg, rgba(100, 226, 130, 0.8), rgba(100, 200, 210, 0.8));
+	background: linear-gradient(5deg, rgba(100, 226, 130, 0.8), rgba(100, 200, 210, 0.8))
+	url("https://img2.freepng.es/20180530/clg/kisspng-data-science-business-analytics-big-data-network-data-5b0f12a177f504.8544074915277144654914.jpg") center top no-repeat;
 	font-family: 'Rubik', sans-serif;
 	margin-bottom: 0;
 }
