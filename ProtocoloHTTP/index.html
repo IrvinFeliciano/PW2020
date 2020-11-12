@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang = "es">
+
+  <head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    <title> Investigación del Protocolo HTTP </title>
+    <link rel = "stylesheet" type = "text/css" href = "bst/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Estilos.css">
+  </head>
+
+  <body>
+    
+    <nav class = "navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class = "navbar-brand" href = "#"> Protocolo HTTP </a>
+      <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#MenuSuperior">
+        <span class = "navbar-toggler-icon"></span>
+      </button>
+
+      <div class = "collapse navbar-collapse" id = "MenuSuperior">
+        <ul class = "navbar-nav mr-auto">
+          <li class = "nav-item">
+            <a class = "nav-link" href = "index.html"> Inicio </a>
+          </li>
+          <li class = "nav-item">
+            <a class = "nav-link" href = "#P1"> Definición </a>
+          </li>
+          <li class = "nav-item">
+            <a class = "nav-link" href = "#P2"> Funciones </a>
+          </li>
+          <li class = "nav-item">
+            <a class = "nav-link" href = "#P3"> Características </a>
+          </li>
+          <li class = "nav-item">
+            <a class = "nav-link" href = "#P4"> Conexión </a>
+          </li>
+        </ul>
+      </div>
+    </nav> 
+
+  <main class = "text-justify">
+
+    <section class = "container" id = "P1">
+      <div class = "jumbotron"> 
+        <div class = "container">
+          <h2 class = "display-3 text-center"> Definición: </h2>
+          <p> El <span> Protocolo de Transferencia de HiperTexto <em> (Hypertext Transfer Protocol) </em> </span> 
+              es un sencillo <span> protocolo cliente-servidor </span> que articula los intercambios de información 
+              entre los <span> <em> clientes Web </em> </span> y los <span> <em> servidores HTTP. </em> </span> La 
+              especificación completa del <span> protocolo HTTP 1/1  </span> está recogida en el <span> RFC 2616 </span>
+              y fue propuesto por <span> Tim Berners-Lee </span> ante las necesidades de un sistema global de distribución
+              de información como el <span> <em> World Wide Web. </em> </span> </p>
+        </div>
+        <figure>
+          <img src = "Imagenes/Estructura.png" alt = "Protocolo HTTP." id = "Logo">
+        </figure>
+      </div>
+    </section>
+
+    <section class = "container" id = "P2">
+      <div class = "card text-white bg-secondary my-5 py-4 text-center">
+        <div class = "card-body">
+          <h2 class = "text-white m-0"> Funciones más generales: </h2>
+        </div>
+      </div>
+    </section>
+    
+    <section class = "container">
+      <div class = "row mb-2">
+        <div class = "col-md-4">
+          <div class = "card border-primary flex-md-row mb-4 box-shadow h-md-250">
+            <div class = "card-body d-flex flex-column align-items-start">
+              <h3 class = "d-inline-block mb-2 text-primary"> Soporte en TCP/IP: </h3>
+              <p class = "card-text mb-auto"> Desde el punto de vista de las comunicaciones, está soportado sobre los 
+              servicios de conexión <span> TCP/IP </span> : un proceso servidor escucha en un puerto de comunicaciones
+              <span> TCP (por defecto, el 80), </span> y espera las solicitudes de conexión de los clientes Web. Una
+              vez que se establece la conexión, el <span> <em> protocolo TCP </em> </span> se encarga de mantener la comunicación y garantizar un intercambio de datos sin errores. </p>
+              <figure>
+                <img class = "offset-md-2 card-img-bottom" src = "Imagenes/TCP-IP.png" alt = "Card image cap" id = "TCP">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class = "col-md-4">
+          <div class = "card border-success flex-md-row mb-4 box-shadow h-md-250">
+            <div class = "card-body d-flex flex-column align-items-start">
+              <h3 class = "d-inline-block mb-2 text-success"> Operación sencilla: </h3>
+              <p class = "card-text mb-auto"> <span> HTTP </span> se basa en sencillas operaciones de <em> solicitud/respuesta. 
+              </em> Un <span> cliente </span> establece una conexión con un <span> servidor </span> y envía un mensaje con los
+              datos de la solicitud. El servidor responde con un mensaje similar, que contiene el estado de la operación y su
+              posible resultado. Todas las operaciones pueden adjuntar un <em> objeto </em> o <em> recurso </em> sobre el que
+              actúan; cada objeto Web es conocido por su <span> dirección URL. </span> </p>
+              <figure>
+                <img class = "offset-md-2 card-img-bottom" src = "Imagenes/Operacion.png" alt = "Card image cap" id = "Operacion">
+              </figure>
+            </div>
+            </div>
+          </div>
+        <div class = "col-md-4">
+          <div class = "card border-primary flex-md-row mb-4 box-shadow h-md-250">
+            <div class = "card-body d-flex flex-column align-items-start">
+              <h3 class = "d-inline-block mb-2 text-primary"> Conexión segura: </h3>
+              <p class = "card-text mb-auto"> Los <em> recursos </em> u <em> objetos </em> que actúan como 
+              entrada o salida de un <span> comando HTTP </span> están clasificados por su <span> descripción MIME. </span>
+              De esta forma, el protocolo puede intercambiar cualquier tipo de dato, sin preocuparse de su contenido. La
+              transferencia se realiza en <span> <em> modo binario (byte a byte) </em> </span> y la identificación MIME 
+              permitirá que el receptor trate adecuadamente los datos específicos. </p>
+              <figure>
+                <img class = "offset-md-2 card-img-bottom" src = "Imagenes/Conexion.png" alt = "Card image cap" id = "Conexion">
+              </figure>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <section class = "container" id = "P3">
+      <div class="card text-white bg-secondary my-5 py-4 text-center">
+        <div class="card-body">
+          <h2 class="text-white m-0"> Caracteríticas importantes: </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class = "container">
+        <div class = "row">
+          <div class = "col-md-4">
+            <h2> Envío multimedia: </h2>
+            <p> Permite la transferencia de objetos multimedia. El contenido de cada objeto intercambiado está identificado 
+            por su clasificación MIME. </p>
+          </div>
+          <div class = "col-md-2">
+            <figure>
+              <img src = "Imagenes/Icono2.png" alt = "Icono" id = "Icono">
+            </figure>
+          </div>
+          <div class = "col-md-2">
+            <figure>
+              <img src = "Imagenes/Icono1.png" alt = "Icono" id = "Icono">
+            </figure>
+          </div>
+          <div class = "col-md-4">
+            <h2> Identificación URL: </h2>
+            <p> Cada objeto al que se aplican los verbos del protocolo está identificado a través de la información de 
+            situación del final de la URL. </p>
+          </div>
+        </div>
+        <div class = "row">
+          <div class = "col-md-2">
+            <figure>
+              <img src = "Imagenes/Icono2.png" alt = "Icono" id = "Icono">
+            </figure>
+          </div>
+          <div class = "col-md-2">
+            <figure>
+              <img src = "Imagenes/Icono1.png" alt = "Icono" id = "Icono">
+            </figure>
+          </div>
+          <div class = "col-md-4">
+            <h2> Tamaño definido: </h2>
+            <p> Toda la comunicación entre los clientes y servidores se realiza a partir de caracteres de <span> 8 bits. </span> 
+            De esta forma, se puede transmitir cualquier tipo de documento: texto, binario, etc., respetando su formato original.
+            </p>
+          </div>
+          <div class = "col-md-2">
+            <figure>
+              <img src = "Imagenes/Icono1.png" alt = "Icono" id = "Icono">
+            </figure>
+          </div>
+          <div class = "col-md-2">
+            <figure>
+              <img src = "Imagenes/Icono2.png" alt = "Icono" id = "Icono">
+            </figure>
+          </div>
+        </div>
+        <div class = "row">
+          <div class = "col-md-4">
+            <h2> Cliente - Servidor: </h2>
+            <p> Existen tres verbos básicos (hay más, pero por lo general no se utilizan) que un cliente puede utilizar para 
+            dialogar con el servidor: <span> GET, </span> para recoger un objeto, <span> POST, </span> para enviar información 
+            al servidor y <span> HEAD, </span> para solicitar las características de un objeto. </p>
+          </div>
+          <div class = "col-md-2">
+            <figure>
+              <img src = "Imagenes/Icono1.png" alt = "Icono" id = "Icono">
+            </figure>
+          </div>
+          <div class = "col-md-2">
+            <figure>
+              <img src = "Imagenes/Icono2.png" alt = "Icono" id = "Icono">
+            </figure>
+          </div>
+          <div class = "col-md-4">
+            <h2> HTTP Keep Alive: </h2>
+            <p> Cada operación <span> HTTP </span> implica una conexión con el servidor, que es liberada al término de 
+            la misma. Es decir, en una operación se puede recoger un único objeto. Este mecanismo, denominado <span> <em> HTTP Keep Alive, </em> </span> es empleado por la mayoría de los clientes y servidores modernos. </p>
+          </div>
+        </div>
+    </section>
+
+    <section class = "container" id = "P4">
+      <div class="card text-white bg-secondary my-5 py-4 text-center">
+        <div class="card-body">
+          <h2 class="text-white m-0"> Conexión Cliente - Servidor: </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class = "container">
+      <div class="row">
+      <div class="col-md-6">
+        <p> Cada vez que un cliente realiza una petición a un servidor, se ejecutan los siguientes pasos: </p>
+        <ol>
+          <li>
+            <p> Un usuario accede a una <span> URL, </span> seleccionando un enlace de un <span> documento HTML </span>
+            o introduciéndola directamente en el campo Dirección del cliente Web. </p>
+          </li>
+          <li>
+            <p> El <em> cliente Web </em> descodifica la <span> URL, </span> separando sus diferentes partes. Así 
+            identifica el protocolo de acceso, la <span> dirección DNS </span> o <span> IP del servidor, </span> el 
+            posible puerto opcional (el valor por defecto es 80) y el objeto requerido del servidor. </p>
+          </li>
+          <li>
+            <p> Se abre una conexión <span> TCP/IP </span> con el servidor, llamando al <span> puerto TCP </span> 
+            correspondiente. </p>
+          </li>
+          <li>
+            <p> Se realiza la petición. Para ello, se envía el comando necesario (GET, POST, HEAD,…), la dirección 
+            del objeto requerido (el contenido de la URL que sigue a la dirección del servidor), la versión del 
+            protocolo HTTP empleada y un conjunto variable de información, que incluye datos sobre las capacidades 
+            del navegador, datos opcionales para el servidor, etc.  </p>
+          </li>
+          <li>
+            <p> El servidor devuelve la respuesta al cliente. Consiste en un código de estado y el tipo de dato MIME 
+            de la información de retorno, seguido de la propia información. </p>
+          </li> 
+          <li>
+            <p> Se cierra la <span> conexión TCP. </span> Si no se utiliza el modo <em> HTTP Keep Alive, </em> este
+            proceso se repite para cada acceso al <span> servidor HTTP. </span> </p>
+          </li>
+        </ol>
+        <p> El diálogo con los <em> servidores HTTP </em> se establece a través de mensajes formados por líneas de texto, 
+        cada una de las cuales contiene los diferentes comandos y opciones del protocolo. Sólo existen dos tipos de mensajes, 
+        uno para realizar peticiones y otro para devolver la oportuna respuesta. </p>
+      </div>
+      <div class="col-md-6">
+        <img class = "img-fluid rounded" src = "Imagenes/Proceso.png" alt = "">
+      </div>
+    </div>
+    <br>
+    </section>
+
+  </main>
+
+    <footer class = "jumbotron bg-secondary text-center text-white" id = "Pie_Página">
+      <h4> &copy; Copyright 2020. Todos los derechos reservados, el presente trabajo fue realizado por Irvin Feliciano. </h4>
+    </footer>
+
+    <!-- Archivos scripts de Javascript -->
+    <script type = "text/javascript" src ="bst/js/jquery-3.5.1.min.js"></script>
+    <script type = "text/javascript" src ="bst/js/bootsrap.min.js"></script>
+
+  </body>
+</html>

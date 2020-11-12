@@ -1,0 +1,42 @@
+
+figure {
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+#Logo {
+	width: 600px;
+}
+
+#TCP {
+	width: 250px;
+}
+
+#Operacion {
+	width: 220px;
+}
+
+#Conexion {
+	width: 210px;
+}
+
+#Icono {
+	display: inline-block;
+	width: 100px;
+}
+
+#Pie_Página {
+	background: linear-gradient(5deg, rgba(100, 226, 130, 0.8), rgba(100, 200, 210, 0.8));
+	margin-bottom: 0;
+}
