@@ -11,7 +11,7 @@
 
   <body>
     
-    <nav class = "navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class = "navbar navbar-expand-md navbar-dark fixed-top bg-danger">
       <a class = "navbar-brand" href = "#"> Protocolo HTTP </a>
       <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#MenuSuperior">
         <span class = "navbar-toggler-icon"></span>
@@ -41,9 +41,9 @@
   <main class = "text-justify">
 
     <section class = "container" id = "P1">
-      <div class = "jumbotron"> 
+      <div class = "jumbotron Contenido"> 
         <div class = "container">
-          <h2 class = "display-3 text-center"> Definición: </h2>
+          <h2 class = "display-5 text-center"> Definición: </h2>
           <p> El <span> Protocolo de Transferencia de HiperTexto <em> (Hypertext Transfer Protocol) </em> </span> 
               es un sencillo <span> protocolo cliente-servidor </span> que articula los intercambios de información 
               entre los <span> <em> clientes Web </em> </span> y los <span> <em> servidores HTTP. </em> </span> La 
@@ -58,7 +58,7 @@
     </section>
 
     <section class = "container" id = "P2">
-      <div class = "card text-white bg-secondary my-5 py-4 text-center">
+      <div class = "card text-white bg-danger my-5 py-4 text-center">
         <div class = "card-body">
           <h2 class = "text-white m-0"> Funciones más generales: </h2>
         </div>
@@ -69,7 +69,7 @@
       <div class = "row mb-2">
         <div class = "col-md-4">
           <div class = "card border-primary flex-md-row mb-4 box-shadow h-md-250">
-            <div class = "card-body d-flex flex-column align-items-start">
+            <div class = "card-body d-flex flex-column align-items-start Contenido">
               <h3 class = "d-inline-block mb-2 text-primary"> Soporte en TCP/IP: </h3>
               <p class = "card-text mb-auto"> Desde el punto de vista de las comunicaciones, está soportado sobre los 
               servicios de conexión <span> TCP/IP </span> : un proceso servidor escucha en un puerto de comunicaciones
@@ -83,7 +83,7 @@
         </div>
         <div class = "col-md-4">
           <div class = "card border-success flex-md-row mb-4 box-shadow h-md-250">
-            <div class = "card-body d-flex flex-column align-items-start">
+            <div class = "card-body d-flex flex-column align-items-start Contenido">
               <h3 class = "d-inline-block mb-2 text-success"> Operación sencilla: </h3>
               <p class = "card-text mb-auto"> <span> HTTP </span> se basa en sencillas operaciones de <em> solicitud/respuesta. 
               </em> Un <span> cliente </span> establece una conexión con un <span> servidor </span> y envía un mensaje con los
@@ -98,7 +98,7 @@
           </div>
         <div class = "col-md-4">
           <div class = "card border-primary flex-md-row mb-4 box-shadow h-md-250">
-            <div class = "card-body d-flex flex-column align-items-start">
+            <div class = "card-body d-flex flex-column align-items-start Contenido">
               <h3 class = "d-inline-block mb-2 text-primary"> Conexión segura: </h3>
               <p class = "card-text mb-auto"> Los <em> recursos </em> u <em> objetos </em> que actúan como 
               entrada o salida de un <span> comando HTTP </span> están clasificados por su <span> descripción MIME. </span>
@@ -115,19 +115,21 @@
     </section>
 
     <section class = "container" id = "P3">
-      <div class="card text-white bg-secondary my-5 py-4 text-center">
+      <div class="card text-white bg-danger my-5 py-4 text-center">
         <div class="card-body">
           <h2 class="text-white m-0"> Caracteríticas importantes: </h2>
         </div>
       </div>
     </section>
-
+    
+    <div class = "container">
+    <section class = "jumbotron Contenido">
     <section class = "container">
         <div class = "row">
           <div class = "col-md-4">
             <h2> Envío multimedia: </h2>
             <p> Permite la transferencia de objetos multimedia. El contenido de cada objeto intercambiado está identificado 
-            por su clasificación MIME. </p>
+            por su  <span> clasificación MIME. </span> </p>
           </div>
           <div class = "col-md-2">
             <figure>
@@ -142,7 +144,7 @@
           <div class = "col-md-4">
             <h2> Identificación URL: </h2>
             <p> Cada objeto al que se aplican los verbos del protocolo está identificado a través de la información de 
-            situación del final de la URL. </p>
+            situación del final de la <span> URL. </span> </p>
           </div>
         </div>
         <div class = "row">
@@ -197,17 +199,21 @@
           </div>
         </div>
     </section>
+	</section>
+	</div>
 
     <section class = "container" id = "P4">
-      <div class="card text-white bg-secondary my-5 py-4 text-center">
+      <div class="card text-white bg-danger my-5 py-4 text-center">
         <div class="card-body">
           <h2 class="text-white m-0"> Conexión Cliente - Servidor: </h2>
         </div>
       </div>
     </section>
 
+    <div class = "container">
+    <section class = "jumbotron Contenido">
     <section class = "container">
-      <div class="row">
+        <div class = "row">
       <div class="col-md-6">
         <p> Cada vez que un cliente realiza una petición a un servidor, se ejecutan los siguientes pasos: </p>
         <ol>
@@ -225,35 +231,56 @@
             correspondiente. </p>
           </li>
           <li>
-            <p> Se realiza la petición. Para ello, se envía el comando necesario (GET, POST, HEAD,…), la dirección 
-            del objeto requerido (el contenido de la URL que sigue a la dirección del servidor), la versión del 
-            protocolo HTTP empleada y un conjunto variable de información, que incluye datos sobre las capacidades 
-            del navegador, datos opcionales para el servidor, etc.  </p>
+            <p> Se realiza la petición. Para ello, se envía el comando necesario <span> (GET, POST, HEAD,…), </span>
+            la dirección del objeto requerido (el contenido de la URL que sigue a la dirección del servidor), la versión
+            del <span> protocolo HTTP </span> empleada y un conjunto variable de información, que incluye datos sobre las
+            capacidades del navegador, datos del servidor, etc.  </p>
           </li>
+         </ol>
+      </div>
+      <div class="col-md-6">
+        <img class = "img-fluid rounded" src = "Imagenes/Proceso1.png" alt = "" id = "Proceso1">
+      </div>
+      </div>
+   </section>
+
+   <section class = "container">
+      <div class="row">
+      <div class="col-md-6">
+      	<ol>
           <li>
-            <p> El servidor devuelve la respuesta al cliente. Consiste en un código de estado y el tipo de dato MIME 
-            de la información de retorno, seguido de la propia información. </p>
+            <p> El servidor devuelve la respuesta al cliente. Consiste en un código de estado y el tipo de dato <span>
+            MIME </span> de la información de retorno, seguido de la propia información. </p>
           </li> 
           <li>
             <p> Se cierra la <span> conexión TCP. </span> Si no se utiliza el modo <em> HTTP Keep Alive, </em> este
             proceso se repite para cada acceso al <span> servidor HTTP. </span> </p>
           </li>
         </ol>
-        <p> El diálogo con los <em> servidores HTTP </em> se establece a través de mensajes formados por líneas de texto, 
-        cada una de las cuales contiene los diferentes comandos y opciones del protocolo. Sólo existen dos tipos de mensajes, 
-        uno para realizar peticiones y otro para devolver la oportuna respuesta. </p>
+        <p> El diálogo con los <span> <em> servidores HTTP </em> </span> se establece a través de mensajes formados
+        por líneas de texto, cada una de las cuales contiene los diferentes comandos y opciones del protocolo. Sólo 
+        existen dos tipos de mensajes, uno para realizar peticiones y otro para devolver la oportuna respuesta. </p>
       </div>
-      <div class="col-md-6">
-        <img class = "img-fluid rounded" src = "Imagenes/Proceso.png" alt = "">
+      <div class="col-md-3">
+        <img class = "img-fluid rounded" src = "Imagenes/Proceso2.png" alt = "" id = "Proceso2">
       </div>
-    </div>
-    <br>
+      <div class="col-md-3">
+        <img class = "img-fluid rounded" src = "Imagenes/Proceso3.png" alt = "" id = "Proceso2">
+      </div>
+  	  </div>
+  	  <br>
     </section>
+	</section>
+	</div>
 
   </main>
 
-    <footer class = "jumbotron bg-secondary text-center text-white" id = "Pie_Página">
-      <h4> &copy; Copyright 2020. Todos los derechos reservados, el presente trabajo fue realizado por Irvin Feliciano. </h4>
+  	<footer class = "container" id = "P1">
+      <div class = "jumbotron text-center text-white bg-danger"> 
+        <div class = "container">
+          <h5> &copy; Copyright 2020. Todos los derechos reservados, el presente trabajo fue realizado por Irvin Feliciano. </h5>
+        </div>
+      </div>
     </footer>
 
     <!-- Archivos scripts de Javascript -->

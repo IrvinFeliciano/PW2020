@@ -1,4 +1,13 @@
 
+body {
+	box-sizing: border-box;
+	background: #e9967a;
+}
+
+.Contenido {
+	background: #add8e6;
+}
+
 figure {
 	text-align: center;
 }
@@ -13,6 +22,10 @@ h2 {
 
 h3 {
 	text-align: center;
+}
+
+span {
+	font-weight: bold;
 }
 
 #Logo {
@@ -34,6 +47,16 @@ h3 {
 #Icono {
 	display: inline-block;
 	width: 100px;
+}
+
+#Proceso1 {
+	text-align: center;
+	width: 500px;
+}
+
+#Proceso2 {
+	text-align: center;
+	width: 250px;
 }
 
 #Pie_Página {
