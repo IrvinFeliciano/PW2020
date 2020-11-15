@@ -11,15 +11,15 @@
 
   <body>
 
-    <nav class = "navbar navbar-expand-md navbar-dark fixed-top bg-danger">
-      <a class = "navbar-brand" href = "#"> Protocolo HTTP </a>
+    <nav class = "navbar navbar-expand-sm bg-danger navbar-dark fixed-top">
+      <a class = "navbar-brand" href = "index.html"> Protocolo HTTP </a>
       <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#MenuSuperior">
-        <span class = "navbar-toggler-icon"></span>
+        <span class = "navbar-toggler-icon">  </span>
       </button>
 
-      <div class = "collapse navbar-collapse" id = "MenuSuperior">
+      <div class = "collapse navbar-collapse" id = "menuSuperior">
         <ul class = "navbar-nav mr-auto">
-          <li class = "nav-item">
+          <li class = "nav-item active">
             <a class = "nav-link" href = "index.html"> Inicio </a>
           </li>
           <li class = "nav-item">
@@ -39,11 +39,10 @@
     </nav> 
 
   <main class = "text-justify">
-
     <section class = "container" id = "P1">
       <div class = "jumbotron Contenido"> 
         <div class = "container">
-          <h2 class = "display-5 text-center"> Definición: </h2>
+          <h1 class = "display-8 text-center"> Definición: </h1>
           <p> El <span> Protocolo de Transferencia de HiperTexto <em> (Hypertext Transfer Protocol) </em> </span> 
               es un sencillo <span> protocolo cliente-servidor </span> que articula los intercambios de información 
               entre los <span> <em> clientes Web </em> </span> y los <span> <em> servidores HTTP. </em> </span> La 
@@ -117,7 +116,7 @@
     <section class = "container" id = "P3">
       <div class="card text-white bg-danger my-5 py-4 text-center">
         <div class="card-body">
-          <h2 class="text-white m-0"> Caracteríticas importantes: </h2>
+          <h2 class="text-white m-0"> Características importantes: </h2>
         </div>
       </div>
     </section>
@@ -126,19 +125,24 @@
     <section class = "jumbotron Contenido">
     <section class = "container">
         <div class = "row">
+          <div class = "col-md-12">
+            <h6 class = "text-center"> Favor de dar click en cada icono para cambiar de imagen :). </h6>
+            <br>
+            <br>
+          </div>
           <div class = "col-md-4">
             <h2> Envío multimedia: </h2>
             <p> Permite la transferencia de objetos multimedia. El contenido de cada objeto intercambiado está identificado 
             por su  <span> clasificación MIME. </span> </p>
           </div>
           <div class = "col-md-2">
-            <figure>
-              <img src = "Imagenes/Icono2.png" alt = "Icono" id = "Icono">
+            <figure onclick = "CambioImagen2();">
+              <img src = "Imagenes/Icono2.png" alt = "Figura 2" class = "Icono" id = "F2">
             </figure>
           </div>
           <div class = "col-md-2">
-            <figure>
-              <img src = "Imagenes/Icono1.png" alt = "Icono" id = "Icono">
+            <figure onclick = "CambioImagen1();">
+              <img src = "Imagenes/Icono1.png" alt = "Figura 1" class = "Icono" id = "F1">
             </figure>
           </div>
           <div class = "col-md-4">
@@ -149,13 +153,13 @@
         </div>
         <div class = "row">
           <div class = "col-md-2">
-            <figure>
-              <img src = "Imagenes/Icono2.png" alt = "Icono" id = "Icono">
+            <figure onclick = "CambioImagen4();">
+              <img src = "Imagenes/Icono2.png" alt = "Figura 2" class = "Icono" id = "F4">
             </figure>
           </div>
           <div class = "col-md-2">
-            <figure>
-              <img src = "Imagenes/Icono1.png" alt = "Icono" id = "Icono">
+            <figure onclick = "CambioImagen3();">
+              <img src = "Imagenes/Icono1.png" alt = "Figura 1" class = "Icono" id = "F3">
             </figure>
           </div>
           <div class = "col-md-4">
@@ -165,13 +169,13 @@
             </p>
           </div>
           <div class = "col-md-2">
-            <figure>
-              <img src = "Imagenes/Icono1.png" alt = "Icono" id = "Icono">
+            <figure onclick = "CambioImagen5();">
+              <img src = "Imagenes/Icono1.png" alt = "Figura 1" class = "Icono" id = "F5">
             </figure>
           </div>
           <div class = "col-md-2">
-            <figure>
-              <img src = "Imagenes/Icono2.png" alt = "Icono" id = "Icono">
+            <figure onclick = "CambioImagen6();">
+              <img src = "Imagenes/Icono2.png" alt = "Figura 2" class = "Icono" id = "F6">
             </figure>
           </div>
         </div>
@@ -183,19 +187,20 @@
             al servidor y <span> HEAD, </span> para solicitar las características de un objeto. </p>
           </div>
           <div class = "col-md-2">
-            <figure>
-              <img src = "Imagenes/Icono1.png" alt = "Icono" id = "Icono">
+            <figure onclick = "CambioImagen7();">
+              <img src = "Imagenes/Icono1.png" alt = "Figura 1" class = "Icono" id = "F7">
             </figure>
           </div>
           <div class = "col-md-2">
-            <figure>
-              <img src = "Imagenes/Icono2.png" alt = "Icono" id = "Icono">
+            <figure onclick = "CambioImagen8();">
+              <img src = "Imagenes/Icono2.png" alt = "Figura 2" class = "Icono" id = "F8">
             </figure>
           </div>
           <div class = "col-md-4">
             <h2> HTTP Keep Alive: </h2>
-            <p> Cada operación <span> HTTP </span> implica una conexión con el servidor, que es liberada al término de 
-            la misma. Es decir, en una operación se puede recoger un único objeto. Este mecanismo, denominado <span> <em> HTTP Keep Alive, </em> </span> es empleado por la mayoría de los clientes y servidores modernos. </p>
+            <p> Cada operación <span> HTTP </span> implica una conexión con el servidor. Es decir, en una operación se puede
+            recoger un único objeto. Este mecanismo, denominado <span> <em> HTTP Keep Alive, </em> </span> es empleado por la 
+            mayoría de los clientes y servidores modernos. </p>
           </div>
         </div>
     </section>
@@ -276,8 +281,9 @@
     </footer>
 
     <!-- Archivos scripts de Javascript -->
-    <script type = "text/javascript" src ="bst/js/jquery-3.5.1.min.js"></script>
-    <script type = "text/javascript" src ="bst/js/bootsrap.min.js"></script>
+    <script type = "text/javascript" src = "bst/js/jquery-3.5.1.min.js"></script>
+    <script type = "text/javascript" src = "bst/js/bootsrap.min.js"></script>
+    <script type = "text/javascript" src = "script.js"></script>
 
   </body>
 </html>
