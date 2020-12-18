@@ -1,0 +1,18 @@
+body {
+	background: #FFA07A;
+	text-align: center;
+	box-sizing: border-box;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.Parrafo1 {
+	font-size: 15px;
+}
+
+.Parrafo2 {
+	font-size: 20px;
+}
+
+.Parrafo3 {
+	font-size: 25px;
+}
